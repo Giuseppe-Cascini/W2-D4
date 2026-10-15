@@ -71,6 +71,20 @@ console.log(`Funzione distanzaDa19(n): ${distanzaDa19(25)}`);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function dentroIntervallo(n) {
+   if (n >= 20 && n <= 100 || n === 400) {
+      return true;
+   }
+   else {
+      return false;
+   }
+}
+console.log(dentroIntervallo(20));
+console.log(dentroIntervallo(55));
+console.log(dentroIntervallo(100));
+console.log(dentroIntervallo(400));
+console.log(dentroIntervallo(104));
+
 
 /* ESERCIZIO 5 — epify
    Funzione epify(testo): aggiunge "EPICODE " davanti.
