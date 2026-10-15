@@ -94,17 +94,17 @@ console.log(dentroIntervallo(104));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 function epify(testo) {
-   const text = ''; 
    if(testo.startsWith('EPICODE')) {
-      return text;
+      return testo;
    } else {
-      return text = 'EPICODE ' + text;
+      return testo = 'EPICODE ' + testo;
    }
 }
-console.log(epify(testo('ciao')));
-console.log(epify(testo('EPICODE')));
-console.log(epify(testo('EPICO')));
-console.log(epify(testo('hello World!')));
+console.log(epify('ciao'));
+console.log(epify('EPICODE'));
+console.log(epify('EPICO'));
+console.log(epify('hello World!'));
+
 
 /* ESERCIZIO 6 — divisibilePer3o7
    Funzione divisibilePer3o7(n): true se n positivo E divisibile per 3 O per 7.
