@@ -27,13 +27,24 @@ function sommaPazza(a, b) {
    if (a !== b) {
       return a + b;
    }
+   else {
+      return ((a + b) * 3);
+   }
+}
+console.log(sommaPazza(2, 3));
+console.log(sommaPazza(4, 4));
+/* versione meno ottimale
+function sommaPazza(a, b) {
+   if (a !== b) {
+      return a + b;
+   }
    if (a === b) {
       return ((a + b) * 3);
    }
 }
 console.log(sommaPazza(2, 3));
 console.log(sommaPazza(4, 4));
-
+*/
 
 /* ESERCIZIO 3 — distanzaDa19
    Funzione distanzaDa19(n): ritorna Math.abs(n - 19).
