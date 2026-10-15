@@ -129,6 +129,16 @@ console.log(divisibilePer3o7(7));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function invertiStringa(testo) {
+   const str = testo.split("");
+   const arrInv = [];
+   console.log(str)
+   for(let i = str.length - 1; i >= 0; i--) {
+     arrInv.push(str[i]);
+   }
+   return arrInv.join("");
+}
+console.log(invertiStringa("cane"));
 
 /* ESERCIZIO 8 — inizialiMaiuscole
    Funzione inizialiMaiuscole(frase): metti in maiuscolo la prima lettera di ogni parola.
