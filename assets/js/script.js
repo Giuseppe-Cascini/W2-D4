@@ -53,6 +53,17 @@ console.log(sommaPazza(4, 4));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function distanzaDa19(n) {
+   const distanza = Math.abs(n - 19);
+   if (n > 19) {
+      return distanza * 3;
+   }
+   else {
+      return distanza;
+   }
+}
+console.log(`Funzione distanzaDa19(n): ${distanzaDa19(5)}`);
+console.log(`Funzione distanzaDa19(n): ${distanzaDa19(25)}`);
 
 /* ESERCIZIO 4 — dentroIntervallo
    Funzione dentroIntervallo(n):
