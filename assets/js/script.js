@@ -31,8 +31,8 @@ function sommaPazza(a, b) {
       return ((a + b) * 3);
    }
 }
-console.log(sommaPazza(2, 3));
-console.log(sommaPazza(4, 4));
+console.log(`Somma pazza: ${sommaPazza(2, 3)}`);
+console.log(`Somma pazza: ${sommaPazza(4, 4)}`);
 /* versione meno ottimale
 function sommaPazza(a, b) {
    if (a !== b) {
