@@ -93,13 +93,35 @@ console.log(dentroIntervallo(104));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function epify(testo) {
+   const text = ''; 
+   if(testo.startsWith('EPICODE')) {
+      return text;
+   } else {
+      return text = 'EPICODE ' + text;
+   }
+}
+console.log(epify(testo('ciao')));
+console.log(epify(testo('EPICODE')));
+console.log(epify(testo('EPICO')));
+console.log(epify(testo('hello World!')));
 
 /* ESERCIZIO 6 — divisibilePer3o7
    Funzione divisibilePer3o7(n): true se n positivo E divisibile per 3 O per 7.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+function divisibilePer3o7(n) {
+   if (n > 0 && (n % 3 === 0 || n % 7 === 0)) {
+      return true;
+   }
+   return false;
+}
+console.log(divisibilePer3o7(21));
+console.log(divisibilePer3o7(42));
+console.log(divisibilePer3o7(3));
+console.log(divisibilePer3o7(-21));
+console.log(divisibilePer3o7(7));
 /* ESERCIZIO 7 — invertiStringa
    Funzione invertiStringa(testo): ritorna la stringa invertita.
    Vincolo: niente .reverse() di array.
